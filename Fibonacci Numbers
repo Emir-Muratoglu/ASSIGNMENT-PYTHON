@@ -1,0 +1,10 @@
+a = 0
+b = 1
+empty = []
+
+for i in range(1, 10):
+  c = a + b
+  a = b
+  b = c
+  empty.append(c)
+print(empty)
